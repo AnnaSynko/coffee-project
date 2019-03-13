@@ -136,21 +136,27 @@
         </div>    
         </main>
         <section>
-        <div class="footer-form">
-            <h4>НОВИЙ КЛІЄНТ? - залишай особисті дані</h4>
-            <form class="submit-form">
-                <label>Ваше ім'я:<input type="text" name="user-name"></label>
-				<br>
-				<label>Ваша пошта:<input type="email" name="user-email"></label>
-                <br>
-                <label>Ваш телефон:<input type="text" name="phone" id="user-count"></label>
-                <br>
-				<label>Write your message:<textarea name="message"  rows="10" ></textarea></label> 
-				<br>        
-				<br>
-				<div class="form-button"><input type="submit" value="Submit"></div>
-            </form>
-        </div>
+        <form>
+            <ul class="form-style-1">
+                <li><label>Ваші дані <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="Ім'я" /> 
+                        <input type="text" name="field2" class="field-divided" placeholder="Прізвище" /></li>
+                <li>
+                    <label>Електронна пошта <span class="required">*</span></label>
+                    <input type="email" name="field3" class="field-long" placeholder="anna567@gmail.com" />
+                </li>
+                <li>
+                    <label>Телефон <span class="required">*</span></label>
+                    <input type="phone" name="field4" class="field-long" placeholder="0675002442" />
+                </li>
+                <li>
+                    <label>Ваше повідомлення <span class="required"></span></label>
+                    <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+                </li>
+                <li>
+                    <input type="submit" value="Зберегти" />
+                </li>
+            </ul>
+        </form>
         </section>
         <footer>
             <div class="footer-container">
