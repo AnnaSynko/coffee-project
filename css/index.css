@@ -222,7 +222,7 @@ main .menu-coffee a :hover {
 }
 
 main .name a {
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--main-font-color);
     font-weight:bold;
 }
