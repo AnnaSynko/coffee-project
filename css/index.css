@@ -167,6 +167,10 @@ main .menu-coffee li {
     list-style-type: none;
     padding: 10px;
 }
+main .menu-coffee li:hover {
+	background:green;
+}	
+	
 main .menu-coffee a {
     text-decoration: none;
     color: var(--main-font-color);
